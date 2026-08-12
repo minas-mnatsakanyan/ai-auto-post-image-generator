@@ -1,0 +1,692 @@
+# Copyright (C) 2024 AI Auto Post Generator
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: AI Auto Post & Image Generator 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ai-auto-post-generator\n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: ai-auto-post-generator.php:45
+msgid "AI Auto Post & Image Generator"
+msgstr ""
+
+#: ai-auto-post-generator.php:46
+msgid "Automate your WordPress content creation with AI-powered text and image generation."
+msgstr ""
+
+#: includes/class-admin-settings.php:45
+msgid "AI Auto Post"
+msgstr ""
+
+#: includes/class-admin-settings.php:46
+msgid "AI Auto Post"
+msgstr ""
+
+#: includes/class-admin-settings.php:47
+msgid "manage_options"
+msgstr ""
+
+#: includes/class-admin-settings.php:48
+msgid "ai-auto-post-generator"
+msgstr ""
+
+#: includes/class-admin-settings.php:49
+msgid "dashicons-admin-generic"
+msgstr ""
+
+#: includes/class-admin-settings.php:60
+msgid "Dashboard"
+msgstr ""
+
+#: includes/class-admin-settings.php:61
+msgid "Dashboard"
+msgstr ""
+
+#: includes/class-admin-settings.php:62
+msgid "manage_options"
+msgstr ""
+
+#: includes/class-admin-settings.php:63
+msgid "aiapg-dashboard"
+msgstr ""
+
+#: includes/class-admin-settings.php:64
+msgid "dashicons-chart-area"
+msgstr ""
+
+#: includes/class-admin-settings.php:75
+msgid "Schedule Manager"
+msgstr ""
+
+#: includes/class-admin-settings.php:76
+msgid "Schedule Manager"
+msgstr ""
+
+#: includes/class-admin-settings.php:77
+msgid "manage_options"
+msgstr ""
+
+#: includes/class-admin-settings.php:78
+msgid "aiapg-schedules"
+msgstr ""
+
+#: includes/class-admin-settings.php:79
+msgid "dashicons-clock"
+msgstr ""
+
+#: includes/class-admin-settings.php:90
+msgid "Settings"
+msgstr ""
+
+#: includes/class-admin-settings.php:91
+msgid "Settings"
+msgstr ""
+
+#: includes/class-admin-settings.php:92
+msgid "manage_options"
+msgstr ""
+
+#: includes/class-admin-settings.php:93
+msgid "aiapg-settings"
+msgstr ""
+
+#: includes/class-admin-settings.php:94
+msgid "dashicons-admin-settings"
+msgstr ""
+
+#: includes/class-admin-settings.php:105
+msgid "Logs"
+msgstr ""
+
+#: includes/class-admin-settings.php:106
+msgid "Logs"
+msgstr ""
+
+#: includes/class-admin-settings.php:107
+msgid "manage_options"
+msgstr ""
+
+#: includes/class-admin-settings.php:108
+msgid "aiapg-logs"
+msgstr ""
+
+#: includes/class-admin-settings.php:109
+msgid "dashicons-list-view"
+msgstr ""
+
+#: includes/class-admin-settings.php:120
+msgid "Help"
+msgstr ""
+
+#: includes/class-admin-settings.php:121
+msgid "Help"
+msgstr ""
+
+#: includes/class-admin-settings.php:122
+msgid "manage_options"
+msgstr ""
+
+#: includes/class-admin-settings.php:123
+msgid "aiapg-help"
+msgstr ""
+
+#: includes/class-admin-settings.php:124
+msgid "dashicons-editor-help"
+msgstr ""
+
+
+#: includes/views/dashboard.php:15
+msgid "Welcome to AI Auto Post & Image Generator"
+msgstr ""
+
+#: includes/views/dashboard.php:16
+msgid "Automate your content creation with AI-powered text and image generation."
+msgstr ""
+
+#: includes/views/dashboard.php:25
+msgid "Total Schedules"
+msgstr ""
+
+#: includes/views/dashboard.php:30
+msgid "Active Schedules"
+msgstr ""
+
+#: includes/views/dashboard.php:35
+msgid "Posts Created"
+msgstr ""
+
+#: includes/views/dashboard.php:40
+msgid "Total Runs"
+msgstr ""
+
+#: includes/views/dashboard.php:50
+msgid "Quick Actions"
+msgstr ""
+
+#: includes/views/dashboard.php:55
+msgid "Add New Schedule"
+msgstr ""
+
+#: includes/views/dashboard.php:60
+msgid "View Settings"
+msgstr ""
+
+#: includes/views/dashboard.php:65
+msgid "View Logs"
+msgstr ""
+
+#: includes/views/dashboard.php:75
+msgid "Recent Activity"
+msgstr ""
+
+#: includes/views/dashboard.php:85
+msgid "No recent activity found."
+msgstr ""
+
+#: includes/views/dashboard.php:95
+msgid "System Status"
+msgstr ""
+
+#: includes/views/dashboard.php:100
+msgid "API Connections"
+msgstr ""
+
+#: includes/views/dashboard.php:105
+msgid "OpenAI"
+msgstr ""
+
+#: includes/views/dashboard.php:110
+msgid "Google Gemini"
+msgstr ""
+
+#: includes/views/dashboard.php:115
+msgid "Stability AI"
+msgstr ""
+
+#: includes/views/dashboard.php:120
+msgid "Hugging Face"
+msgstr ""
+
+#: includes/views/schedules.php:15
+msgid "Schedule Manager"
+msgstr ""
+
+#: includes/views/schedules.php:16
+msgid "Manage your AI content generation schedules."
+msgstr ""
+
+#: includes/views/schedules.php:25
+msgid "Add New Schedule"
+msgstr ""
+
+#: includes/views/schedules.php:35
+msgid "No schedules found."
+msgstr ""
+
+#: includes/views/schedules.php:45
+msgid "Active"
+msgstr ""
+
+#: includes/views/dashboard.php:50
+msgid "Inactive"
+msgstr ""
+
+#: includes/views/schedules.php:55
+msgid "Posts per run"
+msgstr ""
+
+#: includes/views/schedules.php:60
+msgid "Last run"
+msgstr ""
+
+#: includes/views/schedules.php:65
+msgid "Next run"
+msgstr ""
+
+#: includes/views/schedules.php:70
+msgid "Run Now"
+msgstr ""
+
+#: includes/views/schedules.php:75
+msgid "Edit"
+msgstr ""
+
+#: includes/views/schedules.php:80
+msgid "Delete"
+msgstr ""
+
+#: includes/views/settings.php:15
+msgid "Settings"
+msgstr ""
+
+#: includes/views/settings.php:16
+msgid "Configure your AI Auto Post & Image Generator settings."
+msgstr ""
+
+#: includes/views/settings.php:25
+msgid "API Keys"
+msgstr ""
+
+#: includes/views/settings.php:30
+msgid "Default Settings"
+msgstr ""
+
+#: includes/views/settings.php:35
+msgid "Advanced"
+msgstr ""
+
+#: includes/views/settings.php:40
+msgid "Import/Export"
+msgstr ""
+
+#: includes/views/settings.php:50
+msgid "AI Service API Keys"
+msgstr ""
+
+#: includes/views/settings.php:55
+msgid "Configure your API keys for the AI services you want to use. You only need to add keys for the services you plan to use."
+msgstr ""
+
+#: includes/views/settings.php:65
+msgid "OpenAI API Key"
+msgstr ""
+
+#: includes/views/settings.php:70
+msgid "Get your API key from"
+msgstr ""
+
+#: includes/views/settings.php:75
+msgid "Test Connection"
+msgstr ""
+
+#: includes/views/settings.php:80
+msgid "Save API Keys"
+msgstr ""
+
+#: includes/views/logs.php:15
+msgid "Logs"
+msgstr ""
+
+#: includes/views/logs.php:16
+msgid "View detailed logs of your AI content generation activities."
+msgstr ""
+
+#: includes/views/logs.php:25
+msgid "Filter Logs"
+msgstr ""
+
+#: includes/views/logs.php:30
+msgid "All Statuses"
+msgstr ""
+
+#: includes/views/logs.php:35
+msgid "Success"
+msgstr ""
+
+#: includes/views/logs.php:40
+msgid "Error"
+msgstr ""
+
+#: includes/views/logs.php:45
+msgid "All Schedules"
+msgstr ""
+
+#: includes/views/logs.php:50
+msgid "Date Range"
+msgstr ""
+
+#: includes/views/logs.php:55
+msgid "Apply Filters"
+msgstr ""
+
+#: includes/views/logs.php:65
+msgid "No logs found."
+msgstr ""
+
+#: includes/views/logs.php:75
+msgid "Date/Time"
+msgstr ""
+
+#: includes/views/logs.php:80
+msgid "Schedule"
+msgstr ""
+
+#: includes/views/logs.php:85
+msgid "Status"
+msgstr ""
+
+#: includes/views/logs.php:90
+msgid "Posts Created"
+msgstr ""
+
+#: includes/views/logs.php:95
+msgid "Models Used"
+msgstr ""
+
+#: includes/views/logs.php:100
+msgid "Duration"
+msgstr ""
+
+#: includes/views/logs.php:105
+msgid "Actions"
+msgstr ""
+
+#: includes/views/logs.php:110
+msgid "Details"
+msgstr ""
+
+#: includes/views/logs.php:115
+msgid "Retry"
+msgstr ""
+
+#: includes/views/help.php:15
+msgid "Help & Documentation"
+msgstr ""
+
+#: includes/views/help.php:16
+msgid "Learn how to use AI Auto Post & Image Generator effectively."
+msgstr ""
+
+#: includes/views/help.php:25
+msgid "Quick Start Guide"
+msgstr ""
+
+#: includes/views/help.php:30
+msgid "Configure API Keys"
+msgstr ""
+
+#: includes/views/help.php:35
+msgid "Go to Settings and add your API keys for the AI services you want to use. You only need keys for the services you plan to use."
+msgstr ""
+
+#: includes/views/help.php:40
+msgid "Go to Settings"
+msgstr ""
+
+#: includes/views/help.php:45
+msgid "Create Your First Schedule"
+msgstr ""
+
+#: includes/views/help.php:50
+msgid "Set up a schedule to automatically generate content based on your WordPress categories or custom prompts."
+msgstr ""
+
+#: includes/views/help.php:55
+msgid "Create Schedule"
+msgstr ""
+
+#: includes/views/help.php:60
+msgid "Monitor and Manage"
+msgstr ""
+
+#: includes/views/help.php:65
+msgid "Use the Dashboard and Logs to monitor your automation and manage your schedules."
+msgstr ""
+
+#: includes/views/help.php:70
+msgid "View Dashboard"
+msgstr ""
+
+#: includes/views/help.php:80
+msgid "Plugin Features"
+msgstr ""
+
+#: includes/views/help.php:85
+msgid "AI Content Generation"
+msgstr ""
+
+#: includes/views/help.php:90
+msgid "Generate blog posts using OpenAI GPT models or Google Gemini"
+msgstr ""
+
+#: includes/views/help.php:95
+msgid "AI Image Creation"
+msgstr ""
+
+#: includes/views/help.php:100
+msgid "Generate relevant images with DALL-E, Stability AI, or Hugging Face"
+msgstr ""
+
+#: includes/views/help.php:105
+msgid "Flexible Scheduling"
+msgstr ""
+
+#: includes/views/help.php:110
+msgid "Set up automated publishing with daily, weekly, or custom intervals"
+msgstr ""
+
+#: includes/views/help.php:115
+msgid "Multiple AI Providers"
+msgstr ""
+
+#: includes/views/help.php:120
+msgid "Support for OpenAI, Google Gemini, Stability AI, and Hugging Face"
+msgstr ""
+
+#: includes/views/help.php:125
+msgid "Smart Content Sources"
+msgstr ""
+
+#: includes/views/help.php:130
+msgid "Generate content based on WordPress categories or custom prompts"
+msgstr ""
+
+#: includes/views/help.php:135
+msgid "Comprehensive Logging"
+msgstr ""
+
+#: includes/views/help.php:140
+msgid "Track all automation activities with detailed logs"
+msgstr ""
+
+#: includes/views/help.php:150
+msgid "Supported AI Providers"
+msgstr ""
+
+#: includes/views/help.php:155
+msgid "OpenAI"
+msgstr ""
+
+#: includes/views/help.php:160
+msgid "GPT-3.5 Turbo, GPT-4, DALL-E 2, DALL-E 3"
+msgstr ""
+
+#: includes/views/help.php:165
+msgid "Google Gemini"
+msgstr ""
+
+#: includes/views/help.php:170
+msgid "Gemini Pro, Gemini Pro Vision"
+msgstr ""
+
+#: includes/views/help.php:175
+msgid "Stability AI"
+msgstr ""
+
+#: includes/views/help.php:180
+msgid "SDXL, SD 1.5, SD 2.1"
+msgstr ""
+
+#: includes/views/help.php:185
+msgid "Hugging Face"
+msgstr ""
+
+#: includes/views/help.php:190
+msgid "Various open-source models"
+msgstr ""
+
+#: includes/views/help.php:200
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: includes/views/help.php:205
+msgid "How much do the AI services cost?"
+msgstr ""
+
+#: includes/views/help.php:210
+msgid "Costs vary by provider and model:"
+msgstr ""
+
+#: includes/views/help.php:215
+msgid "OpenAI: GPT-3.5 Turbo (~$0.002/1K tokens), GPT-4 (~$0.03/1K tokens), DALL-E 2 ($0.02/image), DALL-E 3 ($0.04/image)"
+msgstr ""
+
+#: includes/views/help.php:220
+msgid "Google Gemini: Free tier available, paid plans vary"
+msgstr ""
+
+#: includes/views/help.php:225
+msgid "Stability AI: Pay-per-credit system, varies by model"
+msgstr ""
+
+#: includes/views/help.php:230
+msgid "Hugging Face: Many free models available, paid inference API for premium models"
+msgstr ""
+
+#: includes/views/help.php:235
+msgid "How often can I run schedules?"
+msgstr ""
+
+#: includes/views/help.php:240
+msgid "You can set schedules to run daily, weekly, or with custom intervals. You can also run schedules manually at any time."
+msgstr ""
+
+#: includes/views/help.php:245
+msgid "Can I use my own prompts?"
+msgstr ""
+
+#: includes/views/help.php:250
+msgid "Yes! You can either use WordPress categories or provide custom prompts for content generation."
+msgstr ""
+
+#: includes/views/help.php:255
+msgid "Is my content unique?"
+msgstr ""
+
+#: includes/views/help.php:260
+msgid "AI-generated content is unique for each generation, but we recommend reviewing and editing content before publishing."
+msgstr ""
+
+#: includes/views/help.php:265
+msgid "Can I edit posts before publishing?"
+msgstr ""
+
+#: includes/views/help.php:270
+msgid "Currently, posts are published immediately. We're working on a draft mode for future versions."
+msgstr ""
+
+#: includes/views/help.php:280
+msgid "Troubleshooting"
+msgstr ""
+
+#: includes/views/help.php:285
+msgid "API Key Issues"
+msgstr ""
+
+#: includes/views/help.php:290
+msgid "Make sure your API keys are correct and have sufficient credits. Test connections in the Settings page."
+msgstr ""
+
+#: includes/views/help.php:295
+msgid "No Posts Generated"
+msgstr ""
+
+#: includes/views/help.php:300
+msgid "Check your schedule settings and ensure your categories have content or custom prompts are provided."
+msgstr ""
+
+#: includes/views/help.php:305
+msgid "Image Generation Fails"
+msgstr ""
+
+#: includes/views/help.php:310
+msgid "Some image models may have content restrictions. Try different prompts or models."
+msgstr ""
+
+#: includes/views/help.php:320
+msgid "Support & Resources"
+msgstr ""
+
+#: includes/views/help.php:325
+msgid "Documentation"
+msgstr ""
+
+#: includes/views/help.php:330
+msgid "Visit our comprehensive documentation for detailed guides and tutorials."
+msgstr ""
+
+#: includes/views/help.php:335
+msgid "Support Forum"
+msgstr ""
+
+#: includes/views/help.php:340
+msgid "Get help from our community and support team."
+msgstr ""
+
+#: includes/views/help.php:345
+msgid "Feature Requests"
+msgstr ""
+
+#: includes/views/help.php:350
+msgid "Suggest new features or improvements for the plugin."
+msgstr ""
+
+
+#: includes/class-post-generator.php:45
+msgid "Error: No content source specified."
+msgstr ""
+
+#: includes/class-post-generator.php:55
+msgid "Error: No topics found for content generation."
+msgstr ""
+
+#: includes/class-post-generator.php:75
+msgid "Error: Failed to generate post content."
+msgstr ""
+
+#: includes/class-post-generator.php:95
+msgid "Error: Failed to create WordPress post."
+msgstr ""
+
+#: includes/class-image-generator.php:45
+msgid "Error: No prompt provided for image generation."
+msgstr ""
+
+#: includes/class-image-generator.php:65
+msgid "Error: Failed to generate image with OpenAI."
+msgstr ""
+
+#: includes/class-image-generator.php:85
+msgid "Error: Failed to generate image with Stability AI."
+msgstr ""
+
+#: includes/class-image-generator.php:105
+msgid "Error: Failed to generate image with Hugging Face."
+msgstr ""
+
+#: includes/class-image-generator.php:125
+msgid "Error: Failed to download and attach image."
+msgstr ""
+
+#: includes/class-scheduler.php:45
+msgid "Schedule executed successfully."
+msgstr ""
+
+#: includes/class-scheduler.php:65
+msgid "Schedule execution failed."
+msgstr ""
+
+#: includes/views/schedules.php:400
+msgid "Assign posts to categories:"
+msgstr ""
+
+#: includes/views/schedules.php:282
+msgid "Assigned to:"
+msgstr ""
+

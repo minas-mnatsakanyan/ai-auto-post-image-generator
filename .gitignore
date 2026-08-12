@@ -1,0 +1,22 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+*.code-workspace
+
+# Env / secrets
+.env
+.env.*
+*.pem
+
+# Dependencies / build
+node_modules/
+vendor/
+composer.lock
+
+# Logs / temp
+*.log
+*.tmp
+*.bak

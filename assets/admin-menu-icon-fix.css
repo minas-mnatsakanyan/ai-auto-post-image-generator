@@ -1,0 +1,28 @@
+/**
+ * AI Auto Post — admin sidebar menu icon alignment (loads on all wp-admin screens).
+ *
+ * @package AI_Auto_Post_Generator
+ */
+
+#toplevel_page_aiapg-dashboard .wp-menu-image.dashicons-before {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 34px;
+    box-sizing: border-box;
+    float: left;
+}
+
+#toplevel_page_aiapg-dashboard .wp-menu-image.dashicons-before::before {
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+}
+
+#toplevel_page_aiapg-dashboard .wp-menu-image br {
+    display: none;
+}
